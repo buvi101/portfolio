@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+     <header>
+        <!--------------- navbar start ----------------->
+        <nav id="menu" class="sticky">
+            <div class="left">Buvi's Portfolio</div>
+            <ul class="main-menu">
+                <li class="hideOnmobile"><a href="#firstsection">Home</a></li>
+                <li class="hideOnmobile"><a href="#secondsection">About</a></li>
+                <li class="hideOnmobile"><a href="#thirdsection">Services</a></li>
+                <li class="hideOnmobile"><a href="#fourtsection">Works</a></li>
+                <li class="hideOnmobile"><a href="#contact">Contact</a></li>
+                <li id="hideOndesktop"><a href="#" id="menu-toggle"><i class="fa-solid fa-bars"></i></a></li>
+            </ul>
+            <ul class="sidebar" id="sidebar">
+                <li class="lstx"><a href="#" id="close-sidebar"><i class="fa-solid fa-xmark"></i></a></li>
+                <li class="lst"><a href="#firstsection">Home</a></li>
+                <li class="lst"><a href="#secondsection">About</a></li>
+                <li class="lst"><a href="#thirdsection">Services</a></li>
+                <li class="lst"><a href="#fourtsection">Works</a></li>
+                <li class="lst"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!---------------------- navbar end --------------------->
+     </header>
+     <main>
+        <!-------------- first section start -------------->
+        <section id="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Bhuwan</span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="download">
+                    <a href="Resume updated.pdf" download ><button type="submit" class="btndwn">Download Resume</button></a>
+                    <a href="https://github.com/buvi101"><button type="submit" class="btndwn">Visit Github</button></a>
+
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="dev png.png" alt="">
+            </div>
+        </section>
+        <!------------- first section end -------------->
+
+        <div class="about">
+            <h2><span>About</span> Me</h2>
+        </div>
+        <!--------------- second section start ----------------->
+        <section id="secondsection">
+        <div class="aboutsection">
+            <p>
+            Bring strong knowledge of design and development. My spirit allows to work effectively with teams, ensuring organizational growth.</p>
+            <span>
+                An Electronics and Communication Engineering Student.
+            </span>
+
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                <li><span>UI/UX</span><br>Designing Web</li>
+                <li><span>Frontend Development</span><br>HTML | CSS | JAVASCRIPT | REACT JS</li>
+                </ul>
+            </div>
+
+        <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>In College</span><br>Participate in UI/UX Design Contest</li>
+                <li><span>Project Planners</span><br>Develope a website for startup</li>
+                <li><span>In College</span><br>Design Poster for Various Programs</li>
+                <li><span>Online</span><br>Internship at Codealpha</li>
+                    </ul>
+        </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>School(10th & 12th)</span><br>Meenakshi Sundaranar Sengunthar Hr.sec School</li>
+                    <li><span>College</span><br>M.Kumarasamy College of Engineering</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+    <div class="aboutpic">
+        <img class="pic" src="portfolio pic.png" alt="">
+    </div>
+        </section>
+    <!------------------ second section end ------------------->
+        <div class="service">
+            <h2><span>My</span> Services</h2>
+        </div>
+        <!---------------- third section start ---------------------->
+        <section id="thirdsection">
+                <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Dev</h2>
+                <p>Passionate web developer with knowledge of HTML, CSS, and JavaScript, dedicated to creating user-friendly websites. </p>
+                
+                </div>
+                <div>
+                
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>Creative UI/UX designer focused on visually engaging user experience.</p>
+                
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-scissors"></i>
+                    <h2>Editor</h2>
+                    <p>I bring clarity, creativity, and precision to every project I work on.</p>
+                    
+                    </div>
+                    </div>
+                </div>
+        </section>
+        <!----------------- third section end ------------------->
+        <div class="works">
+            <h2><span>My</span> Work</h2>
+        </div>
+        <!------------- fourth section start ---------------->
+        <section id="fourtsection">
+            <!-- <div class="work-list"> -->
+                <div class="work">
+                <img src="amazon-pic.jpg">
+                <div class="layer">
+                <h3>Amazon Clone</h3>
+                <a href="https://buviamazon.netlify.app/"><p>
+                    First project Created Using HTML and CSS.
+                </p></a>
+                </div>
+                </div>
+                <div class="work">
+                    <img src="startup.png">
+                    <div class="layer">
+                    <h3>Project Planners</h3>
+                    <a href="https://projectplanners.netlify.app/"><p>
+                        Build a Website for a Startup.
+                    </p></a>
+                    </div>
+                    </div>
+                    <div class="work">
+                    <img src="age-calc-pic.avif">
+                    <div class="layer">
+                    <h3>Age Calculator</h3>
+                    <a href="https://buviagecalc.netlify.app/"><p>
+                        First Project Using HTML | CSS | Javascript.
+                    </p></a>
+                    </div>
+                    </div>
+        </section>
+        <!------------------ fourth section end ------------------>
+        <div class="contact">
+            <h2><span>Contact</span> Me</h2>
+        </div>
+        <section id="contact">
+            <!-- <div class="container">
+            <div class="row"> -->
+    <div class="contact-left">
+            <p><i class="fa-regular fa-paper-plane"></i>nandubuvi@gmail.com</p>
+            <p><i class="fa-regular fa-address-book"></i></i>+91 9944574702</p>
+        <div class="social-icons">
+            <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter-square"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/bhuwanprasad29/"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn">Submit</button>
+                <span id="msg"></span>
+            </form>
+         </div>
+        </section>
+     </main>
+     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
